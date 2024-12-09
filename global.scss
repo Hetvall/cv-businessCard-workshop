@@ -1,0 +1,15 @@
+// colors palette:
+$alternativeHover: #f6bd60;
+$backgroundColor: black;
+$globalFont: "inter", sans-serif;
+$hoverColor: #ffb703;
+$navBarColor: #343a40;
+
+@mixin grow {
+  animation: grow 0.3s forwards;
+  background-color: $alternativeHover;
+  box-shadow: 0px 0px 10px 5px $alternativeHover;
+  border-radius: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900");
