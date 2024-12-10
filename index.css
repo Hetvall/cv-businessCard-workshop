@@ -311,6 +311,12 @@ ul {
   width: 140%;
 }
 
+.skills-more-to-come-message {
+  color: white;
+  font-size: larger;
+  margin-bottom: 2%;
+}
+
 /* Get in touch section */
 .get-in-touch-section {
   align-items: center;
@@ -376,8 +382,9 @@ ul {
     width: 70%;
   }
 }
-@media (max-width: 1700px) {
-  .personal-info {
+@media (max-width: 2000px) {
+  .personal-info,
+  .business-card-phrase {
     display: none;
   }
 }

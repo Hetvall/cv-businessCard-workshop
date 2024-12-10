@@ -5,6 +5,9 @@ $globalFont: "inter", sans-serif;
 $hoverColor: #ffb703;
 $navBarColor: #343a40;
 
+// Light theme
+$lightBackgroundColor: #edf2f4;
+
 @mixin grow {
   animation: grow 0.3s forwards;
   background-color: $alternativeHover;

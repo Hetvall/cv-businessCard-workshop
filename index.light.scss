@@ -2,7 +2,7 @@
 
 /* Body */
 * {
-  background-color: $backgroundColor;
+  background-color: $lightBackgroundColor;
   font-family: $globalFont;
 }
 
@@ -32,7 +32,7 @@ nav {
   top: 0px;
   a {
     background-color: rgba(255, 200, 255, 0.1);
-    color: white;
+    color: black;
     cursor: pointer;
     font-size: 20px;
     font-weight: 500;
@@ -77,7 +77,7 @@ nav {
     .personal-info {
       backface-visibility: hidden;
       border-radius: 50%;
-      border: 4px solid white;
+      border: 7px solid black;
       bottom: 750%;
       height: 40vh;
       position: absolute;
@@ -116,9 +116,9 @@ nav {
 
     .personal-info {
       align-items: center;
-      background-color: black;
+      background-color: white;
       border-radius: 50%;
-      color: white;
+      color: black;
       display: flex;
       flex-direction: column;
       font-size: large;
@@ -140,7 +140,7 @@ nav {
 // name & position
 .greeting,
 .title-section {
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   font-size: 40px;
@@ -149,7 +149,7 @@ nav {
 }
 
 .home-container strong {
-  color: white;
+  color: black;
   font-size: 70px;
   font-style: italic;
   text-shadow: 2px 2px 1px $hoverColor;
@@ -175,7 +175,7 @@ h2:hover {
 
 hr {
   border-radius: 20%;
-  border: 1.5px solid white;
+  border: 1.5px solid black;
   width: 70%;
 }
 
@@ -201,10 +201,11 @@ hr {
 }
 
 .self-description {
-  background-color: antiquewhite;
+  background-color: rgb(236, 198, 149);
   border-radius: 10px;
   color: black;
   font-size: large;
+  font-weight: 600;
   padding: 1%;
   width: 50%;
 }
@@ -217,7 +218,7 @@ hr {
 }
 
 ul {
-  color: white;
+  color: black;
   list-style: none;
   font-size: large;
 }
@@ -226,6 +227,7 @@ ul {
   color: orange;
   font-family: cursive;
   font-size: larger;
+  font-weight: 600;
 }
 
 .study-icon {
@@ -260,7 +262,7 @@ ul {
 }
 
 .english-level-certification-span {
-  color: white;
+  color: black;
   font-size: larger;
   text-align: center;
 }
@@ -280,7 +282,7 @@ ul {
 }
 
 .work-experience-introduction {
-  color: white;
+  color: black;
   font-size: large;
   margin: 2% 2%;
 }
@@ -314,7 +316,7 @@ ul {
 }
 
 .skills-more-to-come-message {
-  color: white;
+  color: black;
   font-size: larger;
   margin-bottom: 2%;
 }
@@ -365,7 +367,7 @@ ul {
   }
 
   .business-card-phrase {
-    color: white;
+    color: black;
     font-family: cursive;
     font-size: 25px;
     font-weight: bold;
@@ -412,7 +414,7 @@ ul {
   }
   .personal-info {
     align-items: center;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
